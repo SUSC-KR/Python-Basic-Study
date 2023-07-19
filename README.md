@@ -72,5 +72,19 @@ https://docs.google.com/spreadsheets/d/1CkQqjKJ_PnUm7yMUBK2YVpRN4DgSPDdqs1NuKZ7_
 ![스크린샷 2023-07-20 오전 12 23 43](https://github.com/SUSC-KR/Python-Basic-Study/assets/54111883/14e519fc-a6e9-4889-bbf9-49f3ce8c3a09)
 ![스크린샷 2023-07-20 오전 12 25 05](https://github.com/SUSC-KR/Python-Basic-Study/assets/54111883/fe491f3e-5163-49b7-8013-1d320db63318)
 
-7. 다른 사람들의 PR을 확인해보고 Comment를 달아주세요.
+
+## 다른 사람들의 PR을 확인해보고 Comment를 달아주세요.
+1. PR에 올라와 있는 다름 사람들의 PR을 클릭합니다.
+![스크린샷 2023-07-20 오전 12 51 18](https://github.com/SUSC-KR/Python-Basic-Study/assets/54111883/1455794f-2234-450c-8beb-59a27863eec7)
+2. Files Changed에 들어가서 어떤 파일이 추가 되었는지 확인합니다.
+![스크린샷 2023-07-20 오전 12 52 33](https://github.com/SUSC-KR/Python-Basic-Study/assets/54111883/0f3f6018-3993-4fee-a96f-2b326083b559)
+3. 그럼 이렇게 code base로 나오는데 이를 저희가 보기 편하게 바꿉니다.
+![스크린샷 2023-07-20 오전 12 53 07](https://github.com/SUSC-KR/Python-Basic-Study/assets/54111883/867df2af-d7ec-472e-a10b-26faa9721b7b)
+4. 다른 사람이 정리한 자료를 봅니다.
+![스크린샷 2023-07-20 오전 12 53 53](https://github.com/SUSC-KR/Python-Basic-Study/assets/54111883/cfc46684-9ddf-4185-b79a-81d053272c9d)
+5. 다시 conversation으로 돌아가 comment를 달아줍니다.
+![스크린샷 2023-07-20 오전 12 53 55](https://github.com/SUSC-KR/Python-Basic-Study/assets/54111883/0c12eeb7-4f38-4617-b642-1f951c1a12a1)
+![스크린샷 2023-07-20 오전 12 54 29](https://github.com/SUSC-KR/Python-Basic-Study/assets/54111883/f7ee4801-4fd4-4621-884d-268120e5a5b8)
+
+
 
