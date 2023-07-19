@@ -72,4 +72,5 @@ https://docs.google.com/spreadsheets/d/1CkQqjKJ_PnUm7yMUBK2YVpRN4DgSPDdqs1NuKZ7_
 ![스크린샷 2023-07-20 오전 12 23 43](https://github.com/SUSC-KR/Python-Basic-Study/assets/54111883/14e519fc-a6e9-4889-bbf9-49f3ce8c3a09)
 ![스크린샷 2023-07-20 오전 12 25 05](https://github.com/SUSC-KR/Python-Basic-Study/assets/54111883/fe491f3e-5163-49b7-8013-1d320db63318)
 
+7. 다른 사람들의 PR을 확인해보고 Comment를 달아주세요.
 
