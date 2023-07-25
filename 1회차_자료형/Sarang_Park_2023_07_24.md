@@ -3,7 +3,8 @@
 - 프로그래밍(Programing): 프로그램을 만드는 것
 - 코딩(Coding) : 컴퓨터 명령코드로 작성하는 작업
 - 프로그래밍 언어: 컴퓨터 프로그램 작성을 위해 고안된 언어   
-<br />
+
+
 - 프로그래밍 방식 종류
   * 컴파일 방식( C, C++): 번역   
   : 소스코드 → [컴파일] → 오브젝트 파일→ [링크] → 실행파일 → [실행] → 프로세스
@@ -14,16 +15,15 @@
   * JIT ( just in time ) ( JAVA, C# )   
   : 소스코드 → [컴파일] → 바이트코드 → [JVM] → [실행] → 프로세스
 
-<br /> 
-***
+<br />
 
 ## 파이썬 2회차 스터디 내용 _ 자료형
 
 - 자료형이란? 데이터를 식별하는 분류    
 : 숫자형(정수,실수), 문자열, bool(참,거짓), 리스트, 튜플, 딕셔너리, 집합    
-: type() -> ( ) 안에 변수 또는 데이터를 넣으면 자료형 확인 가능
+: type() -> ( ) 안에 변수 또는 데이터를 넣으면 자료형 확인 가능   
 
-<br /> 
+ 
 ### 1) 숫자형
 
 - 정수(int)
@@ -44,9 +44,10 @@
 
 <br /> 
 ※ 변수   
-: 값을 저장할 수 있는 공간   
-( 여러 번 저장 가능, 마지막에 저장된 값으로 변경됨)​
+: 값을 저장할 수 있는 공간 ( 여러 번 저장 가능, 마지막에 저장된 값으로 변경됨)​   
 
+<br />   
+   
 - 변수 선언 규칙
   1. 중복된 이름은 변수로 사용X
   2. 변수 명은 영문자, 숫자, 언더바( _ )만 사용
@@ -60,7 +61,7 @@
 - 변수명 = 데이터 값   
 → 데이터 값이 변수 명에 저장된다
 
-<br /> 
+
 ### 2) 문자열
 
 - 대입
@@ -80,12 +81,14 @@
   <br /> 
 - 인덱싱(indexing) : 문자열 내에 단일 문자들은 각각 번호가 있다   
 ex. a = "Welcome to Python"  ⇒ a[0] = 'W' , a[11] = 'P' , a[-13] = 'o'
+<br /> 
 
-<br /> 
-- 슬라이싱(slicing) : 문자열을 필요한만큼 자른다   
-[start :end -1: step] → start: 시작, end-1 : 마지막 위치, step: 건너뛰기   
-ex. a[8:] = 'to Python' , a[:] = 'Welcome to Python', a[0:9], a[0:]...   
-<br /> 
+- 슬라이싱(slicing) : 문자열을 필요한만큼 자른다    
+[start :end -1: step] → start: 시작, end-1 : 마지막 위치, step: 건너뛰기    
+ex. a[8:] = 'to Python' , a[:] = 'Welcome to Python', a[0:9], a[0:]...    
+
+<br />   
+
 - 포매팅 : 문자열 내에 공간을 만들고 사용할 때마다 원하는 값 넣을 수 있다
   * %s : 문자열(String)
   * %c : 문자 1개(Character)
@@ -107,27 +110,28 @@ ex. 변수 이용해 대입 ⇒ a = 3, print("I eat %d cakes"%a)
     + 이름 사용 가능: print("hi {python}".format(python = 10)) >> 'hi 10'
 
 <br /> 
+
 - 문자열 내장함수
-
+  
   ex. a = " happy "   
-  '''python
-  a = " happy "   
-  print(a.count('p')) = 2  # 문자 개수 세기   
-  print(a.find('y')) = 4  # 위치 알려줌   
-  print(a.index("h")) = 0  # 위치 알려줌   
-  print(a.join("abc"))  # 문자열 삽입   
-  print(a.lower())  # 소문자로 변환   
-  print(a.lstrip()) = "happy "  # 왼쪽 공백 지우기   
-  print(a.rstrip()) = " happy"  # 오른쪽 공백 지우기   
-  print(a.strip()) = "happy"  # 양쪽 공백 지우기   
-  print(a.replace("ha","po")) = "poppy"  # 문자열 교체   
-  print(a.split())  # 문자열 나누기   
-  print(a.center(30))  # 문자열 정렬   
-  print(a.ljust(30))  # 문자열 왼쪽 정렬   
-  print(a.rjust(30))  # 문자열 오른쪽 정렬
-  '''
+```python   
+a = " happy "   
+print(a.count('p')) = 2  # 문자 개수 세기   
+print(a.find('y')) = 4  # 위치 알려줌   
+print(a.index("h")) = 0  # 위치 알려줌   
+print(a.join("abc"))  # 문자열 삽입   
+print(a.lower())  # 소문자로 변환   
+print(a.lstrip()) = "happy "  # 왼쪽 공백 지우기   
+print(a.rstrip()) = " happy"  # 오른쪽 공백 지우기   
+print(a.strip()) = "happy"  # 양쪽 공백 지우기   
+print(a.replace("ha","po")) = "poppy"  # 문자열 교체   
+print(a.split())  # 문자열 나누기   
+print(a.center(30))  # 문자열 정렬   
+print(a.ljust(30))  # 문자열 왼쪽 정렬   
+print(a.rjust(30))  # 문자열 오른쪽 정렬   
+```
 
-<br /> 
+
 ### 3) 리스트
 : 여러 값을 하나의 변수에 넣음(목록)   
 <br />
@@ -140,22 +144,27 @@ ex. 변수 이용해 대입 ⇒ a = 3, print("I eat %d cakes"%a)
   * 문자열 리스트: c = ["like" , "python"]   
   * 정수+문자열 : d = [ 1 , 2 , "like" , "python" ]   
   * 정수+리스트: e = [ 1 , 2 , ["like" , "python"]]   
-<br /> 
+<br />   
+
 - 리스트 인덱스   
 ex) a = [ 1 , 2 , "like" , "python" ]   
 print(a[0]) = 1 / print(a[0]+a[1]) = 3 / print(a[3][1]) = y   
-<br /> 
+<br />
+
 - 리스트 수정/삭제
   * 수정: a = [1,2,3] → a[2] = 4 → print(a) = [1,2,4]
   * 삭제: a = [1,2,3,4,5] → a[1:3] = [ ] → print(a) = [1,5]   
 
-<br /> 
+<br />    
+
 ※ del 함수: 객체 삭제할 때 사용   
 ex) a = [1,2,3,4,5] → del a[1] → print(a) = [1,3,4,5]   
 (일반 숫자형 변수 삭제도 가능 ex. a = 5 → del a )   
-<br /> 
+<br />    
+
 but>> 문자열은 인덱싱으로 삭제 불가능: a = "hi" → del a 가능, del a[0] 불가능!   
-<br /> 
+<br />    
+
 - 리스트 내장 함수( 리스트a → a.함수() 이렇게 사용 )
 sum() = 리스트 요소들의 합   
 max() = 리스트 요소 중 가장 큰 값   
@@ -174,32 +183,35 @@ pop() = 요소 끄집어내기
 clear() = 모든 항목 삭제   
 copy() = 복사본 반환  
 
-<br /> 
+<br />    
+
 // 추가   
 "value" in mylist : value가 mylist에 있으면 True   
 "value" not in mylist : value가 mylist에 없으면 True   
-<br /> 
+<br />    
 
 - 리스트 복사하기
 1. 얕은 복사   
-'''python   
+```python   
 x_list = [ 1, 2, 3, 4, 5 ]   
 y_list = x_list   
 y_list[2] = 30   
 print(x_list) = [ 1, 2, 30, 4, 5 ]   
-'''   
+```  
 → 같은 주소를 '공유'하도록 복사했기 때문에 y_list를 변경하면 같은 주소를 갖고있는 x_list도 바뀜   
-<br /> 
+<br />    
 
 2. 깊은 복사   
-'''python   
+```python   
 x_list = [ 1, 2, 3, 4, 5 ]   
-y_list = list(x_list) → list()는 리스트 객체의 생성자 (객체를 생성하고 초기화하는 함수)   
-'''
-<br /> 
+y_list = list(x_list)
+```
+→ list()는 리스트 객체의 생성자 (객체를 생성하고 초기화하는 함수)   
+   
 ⇒ 다른 객체들을 받아서 리스트로 변환! (y_list가 바뀌어도 x_list는 그대로)   
-<br /> 
+<br />   
 
+   
 - 리스트 슬라이싱
 1. list [ start : stop ]   
 ex) a = [ 1, 2, 3, [’a’ , ‘b’ , ‘c’ ] , 4 ]   
@@ -208,31 +220,31 @@ print(a[0:2]) / print(a[3][:2])
 2. list [ start : stop : step ]   
 ex) a = [ 1, 2, 3, 4, 5, 6, 7, 8, 9 ]   
 print(a[::2]) = [1, 3, 5 ,7, 9] / print(a[1::2]) = [2, 4, 6, 8]   
-<br /> 
+<br />   
 
 ※ 리스트 연산은 문자열과 동일하다( + , * 만 가능)   
 : 정수+문자열은 문법 오류 → str() 로 형변환   
-<br /> 
+<br />   
 
 - 리스트 함축   
 형식: 리스트변수 = [ 출력식 for x in 리스트 if 조건 ]
 
 ex1.  
-'''python   
+```python   
 squares = [ ]   
 for x in range(10):   
   squares.append(x*x)   
 
 ⇒ squares = [ x*x for x in range(10) }   
-'''   
+```   
 <br /> 
 
 ex2. 0~9까지 정수 중 짝수면 "짝수"를 리스트에 추가하고, 홀수이면 "홀수" 추가하는 리스트 함축
 
-⇒ '''python   
-number = [ x for x in range(10) if x % 2 == 0 and x % 3 == 0 ]   
-'''   
-<br /> 
+```python   
+⇒ number = [ x for x in range(10) if x % 2 == 0 and x % 3 == 0 ]   
+```  
+
 
 ### 4) 튜플 tuple
 : 리스트와 거의 동일함   
@@ -297,24 +309,24 @@ a[1] = 'a' → 인덱싱이 아니라 key에 해당하는 1을 나타낸 것
 food = { "김치찌개" : 7000, "김밥" : 1000, "떡볶이" : 500 }   
 <br /> 
 
-① key 리스트 만들기(keys)   
+1. key 리스트 만들기(keys)   
 food_menu = list(food.key())   
 print(food_menu) >> [ '김치찌개', '김밥', '떡볶이' ]   
 <br /> 
-
-② value 리스트 만들기(values)   
+ 
+2. value 리스트 만들기(values)   
 food_price = list(food.values())   
 print(food_price) >> [ 7000, 1000, 500 ]   
 <br /> 
-
-③ key, value 쌍 리스트 만들기(items), 쌍 리스트 지우기(clear)   
+ 
+3. key, value 쌍 리스트 만들기(items), 쌍 리스트 지우기(clear)   
 <br /> 
-
-④ key로 value 얻기(get)   
+ 
+4. key로 value 얻기(get)   
 food.get('김치찌개') >> 7000   
 <br /> 
-
-⑤ 해당 key 있는지 찾아보기(in)   
+ 
+5. 해당 key 있는지 찾아보기(in)   
 print('김밥' not in food) >> False   
 print('배고파' in food) >> False   
 <br /> 
@@ -337,7 +349,7 @@ s1 = set([ 1, 2, 3, 4, 5, 6 ])
 s2 = set([ 4, 5, 6, 7, 8, 9 ])   
 s1 & s2 >> { 4, 5, 6 }  ⇒ & 이용   
 s1.intersection(s2) >> { 4, 5, 6 }  ⇒ intersection 함수 이용   
-<br /> 
+<br />
 
 - 합집합   
 s1 | s2 >> { 1, 2, 3, 4, 5, 6, 7, 8, 9 }  ⇒ | 이용   
@@ -353,8 +365,9 @@ s1.difference(s2) >> { 1, 2, 3 } / s2.difference(s1) >> { 8, 9, 7 } ⇒  differe
 add() = 요소추가   
 update() = 요소 여러개 추가   
 remove() = 요소 삭제   
-<br /> 
-​
+<br />
+
+
 #### 블로그링크
 - python 프로그래밍 기초: <https://blog.naver.com/wivkfm00/223096573141>
 - 자료형&변수_(1) 숫자형, 문자열: <https://blog.naver.com/wivkfm00/223097452157>
